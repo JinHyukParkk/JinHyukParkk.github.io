@@ -12,8 +12,8 @@ img_path: /jinhyukparkk/static/assets/img/blog  # url should be '/homepage/stati
 # author -- index page "about me" section
 author:  # change following line to your infomation.
   name: GitHub  # Be used at blog posts' author.
-  first_name: Hub  # Be used at index page about me section.
-  last_name: Git  # Be used at index page about me section.
+  first_name: Git  # Be used at index page about me section.
+  last_name: Hub  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: JinHyukParkk  # Leave blank if you don't have now
   linkedin_id: 진혁-박-504777130 # Leave blank if you don't have now
