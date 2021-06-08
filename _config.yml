@@ -1,67 +1,133 @@
-# Welcome to Jekyll!
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
-# Website settings
-title: Hyuk
-description: Hyuk's resume
-keywords: hyuk
-baseurl: '' # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://jinhyukparkk.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
-img_path: /jinhyukparkk/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+# Content configuration version
+version: 2
 
-# author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: GitHub  # Be used at blog posts' author.
-  first_name: Git  # Be used at index page about me section.
-  last_name: Hub  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: JinHyukParkk  # Leave blank if you don't have now
-  linkedin_id: 진혁-박-504777130 # Leave blank if you don't have now
-  email: pjh08190819@naver.com  # Leave blank if you don't have now
-  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
-  skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
+# Personal info
+name: 박진혁
+title: 검색 개발자
+email: pjh08190819@gmail.com
+website: https://blog.naver.com/pjh08190819
 
-# comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+# Dark Mode (true/false/never)
+darkmode: true
 
-# analytics
-## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: UA-93473370-3
+# Social links
+github_username: jinhyukparkk
+linkedin_username: 진혁-박-504777130
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
 
-## google optimize
-go:
-  # id:
+# Additional icon links
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 
-## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
-## donation
-donation: on  # type 'on'/'off' to choice display donation button at post page or not
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
-# scss
-sass:
-  style: compressed
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Institution name
+        sub_title: Qualifications (eg. BA Performing Arts)
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
-encoding: utf-8
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-# other settings
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
 
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

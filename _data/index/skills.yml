@@ -1,6 +1,0 @@
-# skills section data
-
-label: Ability
-id : cs
-aspects: Golang, Java, PHP, VueJs, ElasticSearch, Redis, Sleeping
-percentage: 50, 80, 70, 50, 80, 80, 100
