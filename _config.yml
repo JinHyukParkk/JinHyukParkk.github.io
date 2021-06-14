@@ -54,15 +54,6 @@ content:
     content:
       - layout: top-middle
         title: 아프리카TV 통합검색
-      #  link: 
-      #  link_text: 
-      #  additional_links:
-      #    - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #      icon: fab fa-github
-      #      url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-      #    - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #      icon: fab fa-github
-      #      url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           2020.01 ~ 현재
         description: | # this will include new lines to allow paragraphs
