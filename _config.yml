@@ -42,9 +42,6 @@ about_content: | # this will include new lines to allow paragraphs
   <br/>
   테스트 커버리지를 높이기 위해 노력하고, 코드 리뷰 / <mark>함께하는 개발 문화</mark>를 중시합니다.
 
-# Projects Section
-# projects_title: Projects
-
 #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
 #    - Tables
@@ -52,6 +49,24 @@ about_content: | # this will include new lines to allow paragraphs
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: 아프리카TV 통합검색
+      #  link: 
+      #  link_text: 
+      #  additional_links:
+      #    - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #      icon: fab fa-github
+      #      url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #    - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #      icon: fab fa-github
+      #      url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          2020.01 ~ 현재
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
@@ -88,7 +103,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -103,6 +118,7 @@ exclude : [
   "node_modules",
   "vendor/bundle/",
   "vendor/cache/",
+  
   "vendor/gems/",
   "vendor/ruby/",
   "lib/",
