@@ -65,9 +65,25 @@ content:
       #      url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           2020.01 ~ 현재
-        description: | # this will include new lines to allow paragraphs
+        description: > # this will include new lines to allow paragraphs
           - 복합 단어 검색 개선 <br/>
-          - 
+
+      - layout: top-middle
+        title: test
+      #  link: 
+      #  link_text: 
+      #  additional_links:
+      #    - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #      icon: fab fa-github
+      #      url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #    - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #      icon: fab fa-github
+      #      url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          2020.01 ~ 현재
+        description: > # this will include new lines to allow paragraphs
+          - 복합 단어 검색 개선 <br/>
+        
   - title: Experience
     layout: list
     content:
