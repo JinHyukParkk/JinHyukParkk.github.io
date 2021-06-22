@@ -65,10 +65,10 @@ content:
       #      url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           2020.01 ~ 현재
-        description: > # this will include new lines to allow paragraphs
-          - 검색 유사도 개선 <br/>
-          - WhaTap/nGrinder를 통한 성능 테스트 및 개선 <br/>
-          - Trello / Gitlab-CI / Slack / Sentry 를 이용한 작업 배포, 모니터링 알림 자동화  <br/>
+        description: | # this will include new lines to allow paragraphs
+          * 검색 유사도 개선
+          * WhaTap/nGrinder를 통한 성능 테스트 및 개선
+          * Trello / Gitlab-CI / Slack / Sentry 를 이용한 작업 배포, 모니터링 알림 자동화
 
       - layout: top-middle
         title: 아프라키TV
