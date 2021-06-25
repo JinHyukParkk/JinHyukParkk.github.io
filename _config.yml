@@ -69,8 +69,8 @@ content:
           * 아프리카TV 검색 키워드 ES Nori사전 기반으로한 전처리 개발
           * 아프리카TV 검색 유사도 / 데이터 구조 개선
           * ElasticSearch Nori Analyzer 튜닝
-          * Redis 성능 개선
-          * WhaTap/nGrinder를 통한 성능 테스트 및 개선
+          * Redis Cluster 구조 / 성능 개선
+          * WhaTap / nGrinder을 통한 성능 테스트 및 개선
           * Trello / Gitlab-CI / Slack / Sentry 를 이용한 작업 배포, 모니터링 알림 자동화
 
       - layout: top-middle
@@ -86,8 +86,11 @@ content:
       #      url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           2018.05 ~ 2019.12
-        description: > # this will include new lines to allow paragraphs
-          - 복합 단어 검색 개선 <br/>
+        description: | # this will include new lines to allow paragraphs
+          * 신입BJ 지원센터 - 포인트 구조 설계 / 서비스 API, Batch 개발 및 운영
+          * MCN youtube 수익 정산 어드민 / 서비스 관리
+          * 아프리카TV 게시판 개발 / 유지보수
+          * 상시 이벤트 페이지 개발
         
   - title: Experience
     layout: list
