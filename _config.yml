@@ -91,7 +91,8 @@ content:
           * MCN youtube 수익 정산 어드민 / 서비스 관리
           * 아프리카TV 게시판 개발 / 유지보수
           * 상시 이벤트 페이지 개발
-        
+  - title: Skills     
+    layout: list
   - title: Experience
     layout: list
     content:
