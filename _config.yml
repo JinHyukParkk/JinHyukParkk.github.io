@@ -93,6 +93,8 @@ content:
           * 상시 이벤트 페이지 개발
   - title: Skills     
     layout: list
+
+  
   - title: Experience
     layout: list
     content:
