@@ -67,7 +67,8 @@ content:
           2020.01 ~ 현재
         description: | # this will include new lines to allow paragraphs
           * 아프리카TV 검색 키워드 ES Nori사전 기반으로한 전처리 개발
-          * 아프리카TV 검색 유사도 / 데이터 구조 개선
+          * 아프리카TV 검색 유사도 로직 개선
+          * 아프리카TV 검색 시스템 구조 개선
           * ElasticSearch Nori Analyzer 튜닝
           * Redis Cluster 구조 / 성능 개선
           * WhaTap / nGrinder을 통한 성능 테스트 및 개선
