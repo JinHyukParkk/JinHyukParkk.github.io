@@ -72,7 +72,7 @@ content:
           * ElasticSearch Nori Analyzer 튜닝
           * Redis Cluster 구조 / 성능 개선
           * WhaTap / nGrinder을 통한 성능 테스트 및 개선
-          * Trello / Gitlab-CI / Slack / Sentry 를 이용한 작업 배포, 모니터링 알림 자동화
+          * Jira / Gitlab-CI / Slack / Sentry 를 이용한 작업 배포, 모니터링 알림 자동화
 
       - layout: top-middle
         title: 아프리카TV 전사 서비스
