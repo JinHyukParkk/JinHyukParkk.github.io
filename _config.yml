@@ -108,7 +108,7 @@ content:
         caption: 2018.5 ~ 현재
         
         quote: >
-          라이브 방송 플랫폼 서비스
+          1인 라이브 방송 플랫폼 서비스 기업
         description: | # this will include new lines to allow paragraphs
           Description of role
 
@@ -130,7 +130,7 @@ content:
         caption: 2017.1 ~ 2017.6
         
         quote: >
-          Short description of the company (optional)
+          빅데이터 구축 및 분석 전문으로 빅데이터 기술을 제공하는 ICT솔루션 기업
         description: | # this will include new lines to allow paragraphs
           Description of role
 #  - title: Education
