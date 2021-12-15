@@ -96,6 +96,11 @@ content:
       
   - title: Skills     
     layout: list
+    content:
+    - layout: top-middle
+        title: 언어
+        description: 
+          * Java, Spring
 
   
   - title: Experience
