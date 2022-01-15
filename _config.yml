@@ -69,8 +69,8 @@ content:
           * 아프리카TV 검색 전처리 개발
           * 아프리카TV 검색 유사도 로직 개선
           * 아프리카TV 검색 시스템 구조 개선
-          * ElasticSearch Nori Analyzer 튜닝
-          * Redis Cluster 구조 / 성능 개선
+          * ElasticSearch 한글 형태소 분석기 튜닝
+          * Redis Cluster 구조 설계 / 성능 개선
           * WhaTap / nGrinder을 통한 성능 테스트 및 개선
           * Jira / Gitlab-CI / Slack / Sentry 를 이용한 작업 배포, 모니터링 알림 자동화
 
@@ -93,7 +93,7 @@ content:
           * 아프리카TV 게시판 개발 / 유지보수
           * 상시 이벤트 페이지 개발
 
-      
+
   - title: Skills     
     layout: list
     content:
