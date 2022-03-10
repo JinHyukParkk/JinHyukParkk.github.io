@@ -97,10 +97,10 @@ content:
   - title: Skills     
     layout: list
     content:
-    - layout: top-middle
+      - layout: left
         title: 언어
         description: 
-          * Java, Spring
+          Java, Spring
 
   
   - title: Experience
