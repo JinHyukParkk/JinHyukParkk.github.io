@@ -153,9 +153,11 @@ content:
         sub_title: 각 코인 종목 토론을 위한 게시판
         caption: 2022.01 ~ 2022.03
         description: | 
-          * 기술 스택 : Java11, Spring Boot(2.6.3), MySQL, Apache Tomcat
+          * 개발 환경 : Java11, Spring Boot(2.6.3), MySQL, Apache Tomcat
           * Upbit API 사용하여 코인 정보 불러오기
           * Junit5 계층 구조 테스트 코드 적용
+          * JPA를 활용한 ORM 방식 개발
+          * RestFul API 구현
 
       - layout: left
         title: 너의 주식을 위해
@@ -163,10 +165,12 @@ content:
         sub_title: 친구 메일로 회사 공시 보내주기
         caption: 2020.09 ~ 2020.10
         description: | # this will include new lines to allow paragraphs
-          * 기술 스택 : Golang(1.13)
-          * dart API 사용하여 등록된 회사 정보 불러오기
+          * 개발 환경 : Golang(1.13), CentOs7
+          * dart API 사용하여 등록된 회사 정보 / 공시 불러오기
+          * SMTP를 이용한 메일 전송 구현
+          * 8시 30분마다 프로그램 실행을 위한 Crontab 설정
 
-  - title: 활동
+  - title: 외부 활동
     layout: list
     content: 
       - layout: left
@@ -176,6 +180,56 @@ content:
           * 코드숨 스프링 4기 수강
           * 개발 스터디, 코드 리뷰, 피드백, 문화 공유
 
+  - title: 학부 프로젝트
+    layout: list
+    content:
+      - layout: left
+        title: VSearch
+        sub_title: VOD 음성 검색 서비스
+        caption: 2017.12 ~ 2018.05
+        link: https://github.com/JinHyukParkk/Vsearch
+        description: | 
+          * 4학년 마지막 졸업작품으로 진행했던 프로젝트입니다.
+          * 개발 환경 : Golang, Echo Framework, Ubuntu 16.04, GCP, ElasticSearch
+          * Google Speech API를 사용하여 VOD 발생 음성을 텍스트로 추출
+          * Google Storage API를 사용하여 영상 적재
+          * VOD 업로드 시 '음성 텍스트 - 발생 시간' 데이터 ElasticSearch 색인
+          * RestFul API 개발
+
+      - layout: left
+        title: Docker Loggging Driver
+        sub_title: Docker 오픈소스 내 Logging Driver 기능 추가
+        caption: 2017.11
+        link: https://github.com/JinHyukParkk/Docker-Logging-Driver
+        description: | 
+          * 2017년 Naver Hack Day에 참가하여 진행했던 프로젝트입니다.
+          * 개발 환경 : Golang, Docker, CentOs7 
+          * Log 저장 공간 마운트 기능 추가
+          * 300KB마다 Log Rotate 기능 추가 
+
+      - layout: left
+        title: 의리!
+        sub_title: 친구 간 무이자 소액 대출 서비스
+        caption: 2017.03
+        link: https://github.com/JinHyukParkk/euRi
+        description: | 
+          * 2017년 농협 핀테크 해커톤에 참가하여 진행했던 프로젝트입니다.
+          * 개발 환경 : Java, Servlet, Apache Tomcat, Mysql, Window8
+          * 금융 Open API를 이용하여 계좌 입출금, 조회 구현
+          * 친구 대출 정보 DB 적재
+          * 대출 요청 / 조회 API 서버 개발
+
+      - layout: left
+        title: BoomPay
+        sub_title: 일정 금액 설정에 따라 간편하게 분할 결제하는 서비스
+        caption: 2016.11
+        link: https://github.com/JinHyukParkk/BoomPay
+        description: | 
+          * 2016년 Kisa 핀테크 해커톤에 참가하여 진행했던 프로젝트입니다.
+          * 개발 환경 : PHP, Javascript, Mamp, Window8
+          * 금융 Open API를 이용하여 계좌 입출금, 조회 구현
+          * API 서버 개발
+          
 #  - title: Education # Title for the section
 #    layout: list  # Type of content section (list/text)
 #    content: # this will include new lines to allow paragraphs
