@@ -120,7 +120,7 @@ content:
         # quote: >
         #   1인 라이브 방송 플랫폼 서비스 기업
         description: | # this will include new lines to allow paragraphs
-          현재 광고, 검색 서비스를 담당하고 있습니다.
+          아프리카TV 광고, 검색 서비스를 담당하고 있습니다.
 
       - layout: left
         title: 한국전자통신연구원(Etri)
@@ -147,9 +147,9 @@ content:
         #   빅데이터 구축 및 분석 전문으로 빅데이터 기술을 제공하는 ICT솔루션 기업
         description: | # this will include new lines to allow paragraphs
           하둡 에코 시스템 설치 자동화를 위한 스크립트 작성과
-          Docker, Kubernetes 구축 / 기술 밴치마킹을 진행하였습니다.
-          a. <a href="https://www.slideshare.net/ssuser4921ff/kubernetes-79834978">Kubernetes 설치 발표 자료</a>
-          b. <a href="https://www.slideshare.net/ssuser4921ff/keepalived-haproxy">keepalived, Haproxy 발표 자료</a>
+          Docker, Kubernetes 구축 / 기술 밴치마킹을 진행하였습니다. <br/>
+          a. <a href="https://www.slideshare.net/ssuser4921ff/kubernetes-79834978">Kubernetes 설치 발표 자료</a> <br/>
+          b. <a href="https://www.slideshare.net/ssuser4921ff/keepalived-haproxy">keepalived, Haproxy 발표 자료</a> <br/>
           c. <a href="https://www.slideshare.net/ssuser4921ff/git-server-git-olitegitweb-79832661">Git 서버 구축 발표 자료</a>
 
 
