@@ -65,11 +65,12 @@ content:
           * IntelliJ
 
       - layout: left
-        title: DevOps
+        title: DevOps / System
         description: |
-          * Jenkins, TravisCI
+          * Jira, Slack, Discord
+          * Jenkins, GitLab-CI, TravisCI
+          * nGrinder, Sentry
           * Nginx
-          * nGrinder
           * Docker, Kubernetes
 
       - layout: left
@@ -122,7 +123,6 @@ content:
           2. <a href="https://github.com/JinHyukParkk/resolution-TileSize-comparison">위성 Tile들의 해상도를 낮추어 파일 크기를 비교</a> (golang) <br/>
           3. <a href="https://github.com/JinHyukParkk/Building-Infomation">Vworld Map의 3D 건물 텍스쳐 정보 리스트 추출하기</a> (C#)
           
-
       - layout: left
         title: 모비젠
         link: http://www.mobigen.com/
@@ -144,6 +144,28 @@ content:
       #     2021.01 ~ 현재
       #   description: | 
       #     * 아프리카TV 광고 안내 서비스 PHP -> JAVA 컨버팅
+
+  - title: 토이 프로젝트
+    layout: list
+    content:
+      - layout: left
+        title: 코토방
+        link: https://github.com/JinHyukParkk/project-spring-4-JinHyukParkk
+        sub_title: 각 코인 종목 토론을 위한 게시판
+        caption: 2022.01 ~ 2022.03
+        description: | 
+          * 기술 스택 : Java11, Spring Boot(2.6.3), MySQL, Apache Tomcat
+          * Upbit API 사용하여 코인 정보 불러오기
+          * Junit5 계층 구조 테스트 코드 적용
+
+      - layout: left
+        title: 너의 주식을 위해
+        link: https://github.com/JinHyukParkk/forYourStock
+        sub_title: 친구 메일로 회사 공시 보내주기
+        caption: 2020.09 ~ 2020.10
+        description: | # this will include new lines to allow paragraphs
+          * 기술 스택 : Golang(1.13)
+          * dart API 사용하여 등록된 회사 정보 불러오기
 
   - title: 활동
     layout: list
