@@ -148,6 +148,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           하둡 에코 시스템 설치 자동화를 위한 스크립트 작성과
           Docker, Kubernetes 구축 / 기술 밴치마킹을 진행하였습니다.
+          a. <a href="https://www.slideshare.net/ssuser4921ff/kubernetes-79834978">Kubernetes 설치 발표 자료</a>
+          b. <a href="https://www.slideshare.net/ssuser4921ff/keepalived-haproxy">keepalived, Haproxy 발표 자료</a>
+          c. <a href="https://www.slideshare.net/ssuser4921ff/git-server-git-olitegitweb-79832661">Git 서버 구축 발표 자료</a>
+
 
 
   - title: A Little More About Me
