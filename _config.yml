@@ -49,38 +49,6 @@ about_content: | # this will include new lines to allow paragraphs
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: 현재 담당 서비스 
-    layout: list
-    content:
-      - layout: top-middle
-        title: 아프리카TV 광고 서비스
-        quote: >
-          2021.01 ~ 현재
-        description: | 
-          * 아프리카TV 광고 안내 서비스 PHP -> JAVA 컨버팅
-
-      - layout: top-middle
-        title: 아프리카TV 통합검색 서비스
-        quote: >
-          2020.01 ~ 현재
-        description: | 
-          * 아프리카TV 검색 API 개발
-          * 아프리카TV 검색 시스템 구조 개선
-          * ElasticSearch 검색 데이터 인덱서 개발
-          * ElasticSearch 한글 형태소 분석기 튜닝
-          * Cache, Storage 용도 Redis Cluster 구조 설계 / 성능 개선
-          * WhaTap / nGrinder을 통한 성능 테스트 및 개선
-          * Jira / Gitlab-CI / Slack / Sentry 를 이용한 작업 배포 자동화, 에러 트레킹, 이슈 모니터링 알림 CI 구축
-
-      - layout: top-middle
-        title: 아프리카TV 전사 서비스
-        quote: >
-          2018.05 ~ 2019.12
-        description: | 
-          * 신입BJ 지원센터 - 포인트 구조 설계 / 서비스 API, Batch 개발 및 운영
-          * MCN youtube 수익 정산 어드민 / 서비스 관리
-          * 아프리카TV 게시판 개발 / 유지보수
-          * 상시 이벤트 페이지 개발
 
   - title: 보유 기술     
     layout: list
@@ -109,20 +77,36 @@ content:
         description: | 
           * Html, Javascript
           * Handlebars
-  
-  - title: 경력 사항
+
+  - title: 경력 사항 
     layout: list
     content:
       - layout: left
-        title: 아프리카TV
-        link: https://www.afreecatv.com/
-        sub_title: 백엔드 개발자
-        caption: 2018.5 ~ 현재
-        
-        # quote: >
-        #   1인 라이브 방송 플랫폼 서비스 기업
-        description: | # this will include new lines to allow paragraphs
-          아프리카TV 광고, 검색 서비스를 담당하고 있습니다.
+        title: 아프리카TV 광고
+        caption: 2021.01 ~ 현재
+        description: | 
+          * 아프리카TV 광고 안내 서비스 PHP -> JAVA 컨버팅
+
+      - layout: left
+        title: 아프리카TV 통합검색
+        caption: 2020.01 ~ 현재
+        description: | 
+          * 아프리카TV 검색 API 개발
+          * 아프리카TV 검색 시스템 구조 개선
+          * ElasticSearch 검색 데이터 인덱서 개발
+          * ElasticSearch 한글 형태소 분석기 튜닝
+          * Cache, Storage 용도 Redis Cluster 구조 설계 / 성능 개선
+          * WhaTap / nGrinder을 통한 성능 테스트 및 개선
+          * Jira / Gitlab-CI / Slack / Sentry 를 이용한 작업 배포 자동화, 에러 트레킹, 이슈 모니터링 알림 CI 구축
+
+      - layout: left
+        title: 아프리카TV 전사 서비스
+        caption: 2018.05 ~ 2019.12
+        description: | 
+          * 신입BJ 지원센터 - 포인트 구조 설계 / 서비스 API, Batch 개발 및 운영
+          * MCN youtube 수익 정산 어드민 / 서비스 관리
+          * 아프리카TV 게시판 개발 / 유지보수
+          * 상시 이벤트 페이지 개발
 
       - layout: left
         title: 한국전자통신연구원(Etri)
@@ -133,10 +117,10 @@ content:
         # quote: >
         #   과학기술정보통신부 산하 과학기술분야 정부출연연구기관
         description: | # this will include new lines to allow paragraphs
-          공간 정보 데이터에 관련된 과제를 진행하였습니다. <br/>
-          a. <a href="https://github.com/JinHyukParkk/DownloadTile">Naver, Daum, Vworld Map에서 위성 Tile을 받아오기</a> (golang) <br/>
-          b. <a href="https://github.com/JinHyukParkk/resolution-TileSize-comparison">위성 Tile들의 해상도를 낮추어 파일 크기를 비교</a> (golang) <br/>
-          c. <a href="https://github.com/JinHyukParkk/Building-Infomation">Vworld Map의 3D 건물 텍스쳐 정보 리스트 추출하기</a> (C#)
+          * 공간 정보 데이터에 관련된 과제를 진행하였습니다. <br/>
+          1. <a href="https://github.com/JinHyukParkk/DownloadTile">Naver, Daum, Vworld Map에서 위성 Tile을 받아오기</a> (golang) <br/>
+          2. <a href="https://github.com/JinHyukParkk/resolution-TileSize-comparison">위성 Tile들의 해상도를 낮추어 파일 크기를 비교</a> (golang) <br/>
+          3. <a href="https://github.com/JinHyukParkk/Building-Infomation">Vworld Map의 3D 건물 텍스쳐 정보 리스트 추출하기</a> (C#)
           
 
       - layout: left
@@ -148,20 +132,28 @@ content:
         # quote: >
         #   빅데이터 구축 및 분석 전문으로 빅데이터 기술을 제공하는 ICT솔루션 기업
         description: | # this will include new lines to allow paragraphs
-          하둡 에코 시스템 설치 자동화를 위한 스크립트 작성과
-          Docker, Kubernetes 구축 / 기술 밴치마킹을 진행하였습니다. <br/>
-          a. <a href="https://www.slideshare.net/ssuser4921ff/kubernetes-79834978">Kubernetes 설치 발표 자료</a> <br/>
-          b. <a href="https://www.slideshare.net/ssuser4921ff/keepalived-haproxy">keepalived, Haproxy 발표 자료</a> <br/>
-          c. <a href="https://www.slideshare.net/ssuser4921ff/git-server-git-olitegitweb-79832661">Git 서버 구축 발표 자료</a>
+          * 하둡 에코 시스템 설치 자동화를 위한 스크립트 작성과
+          * Docker, Kubernetes 구축 / 기술 밴치마킹을 진행하였습니다. <br/>
+          1. <a href="https://www.slideshare.net/ssuser4921ff/kubernetes-79834978">Kubernetes 설치 발표 자료</a> <br/>
+          2. <a href="https://www.slideshare.net/ssuser4921ff/keepalived-haproxy">keepalived, Haproxy 발표 자료</a> <br/>
+          3. <a href="https://www.slideshare.net/ssuser4921ff/git-server-git-olitegitweb-79832661">Git 서버 구축 발표 자료</a>
 
+      # - layout: top-middle
+      #   title: 아프리카TV 광고 서비스
+      #   quote: >
+      #     2021.01 ~ 현재
+      #   description: | 
+      #     * 아프리카TV 광고 안내 서비스 PHP -> JAVA 컨버팅
 
-
-  - title: A Little More About Me
-    layout: text
-    content: | 
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: 활동
+    layout: list
+    content: 
+      - layout: left
+        title: 코드숨 커뮤니티
+        caption: 2021.12 ~ 현재
+        description: | 
+          * 코드숨 스프링 4기 수강
+          * 개발 스터디, 코드 리뷰, 피드백, 문화 공유
 
 #  - title: Education # Title for the section
 #    layout: list  # Type of content section (list/text)
