@@ -38,7 +38,7 @@ about_content: | # this will include new lines to allow paragraphs
   <br/>
   <mark>TDD</mark>를 통해 신뢰도를 높이기 위해 노력하고, **클린한 코드 / 아키텍처**를 항상 생각합니다.<br/>
   <br/>
-  <mark>모두를 위한 개발</mark>, <mark>코드 리뷰</mark>, <mark>공유</mark> 함께 자라는 개발 문화를 중시합니다.
+  **모두를 위한 개발**, **코드 리뷰**, **공유** 함께 자라는 개발 문화</mark>를 중시합니다.
 
 #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
