@@ -83,7 +83,8 @@ content:
         title: 아프리카TV 광고
         caption: 2022.01 ~ 현재
         description: | 
-          * 아프리카TV 광고 안내 서비스 PHP -> JAVA 컨버팅
+          * 아프리카TV 광고 안내 서비스 PHP -> Java 컨버팅 (Spring boot)
+          * 아프리카TV 광고 단가 배치 PHP -> Java 컨버팅 (Spring batch)
 
       - layout: left
         title: 아프리카TV 통합검색
@@ -93,6 +94,7 @@ content:
           * 아프리카TV 검색 시스템 구조 개선
           * ElasticSearch 검색 데이터 인덱서 개발
           * ElasticSearch 한글 형태소 분석기 튜닝
+          * ElasticSearch 7.17.4 버전로 업그레이드
           * Cache, Storage 용도 Redis Cluster 구조 설계 / 성능 개선 / 운영
           * WhaTap / nGrinder을 통한 성능 테스트 및 개선
           * Jira / Gitlab-CI / Slack / Sentry 를 이용한 작업 배포 자동화, 에러 트레킹, 이슈 모니터링 알림 CI 구축
