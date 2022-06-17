@@ -36,11 +36,9 @@ about_content: | # this will include new lines to allow paragraphs
   <br/>
   현재 라이브 방송 플랫폼 서비스에서 5년차 <mark>Java 백엔드 개발자</mark>로 있습니다.<br/>
   <br/>
-  <mark>DevOps</mark>에도 관심이 많고, 직접 CI 구성 / 자동화하는 것을 좋아합니다.<br/>
+  <mark>TDD</mark>를 통해 신뢰도를 높이기 위해 노력하고, **클린한 코드 / 아키텍처**를 항상 생각합니다.<br/>
   <br/>
-  혼자가 아닌 <mark>모두를 위한 개발</mark>을 추구하며, **클린한 코드 / 아키텍처**를 항상 생각합니다.<br/>
-  <br/>
-  <mark>TDD</mark>를 통해 신뢰도를 높이기 위해 노력하고, <mark>코드 리뷰</mark> / 함께하는 개발 문화를 중시합니다.
+  <mark>모두를 위한 개발</mark>, <mark>코드 리뷰</mark>, <mark>공유</mark> 함께 자라는 개발 문화를 중시합니다.
 
 #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
