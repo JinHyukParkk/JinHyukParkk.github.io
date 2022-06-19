@@ -54,7 +54,7 @@ content:
         title: Backend
         description: |
           * Java, Groovy, PHP
-          * Spring Boot, Spring Data JPA
+          * Spring Boot, Batch, JPA
           * Junit5
           * Gradle, Maven
           * MySQL, MariaDB
