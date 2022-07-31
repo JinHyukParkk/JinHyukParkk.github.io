@@ -32,13 +32,15 @@ instagram_username: hyuk_eea
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/hyuk2.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  **'노력이 없으면 발전도 없다.’** 항상 공부하는 자세를 잃지 않는 개발자입니다.<br/>
+  **'노력이 없으면 발전도 없다. ’** 항상 배우는 자세를 잃지 않는 개발자입니다.<br/>
   <br/>
   현재 라이브 방송 플랫폼 서비스에서 5년차 <mark>Java 백엔드 개발자</mark>로 있습니다.<br/>
   <br/>
-  <mark>TDD</mark>를 통해 신뢰도를 높이기 위해 노력하고, **클린한 코드 / 아키텍처**를 항상 생각합니다.<br/>
+  새로운 경험에 대한 **도전 정신**이 강해 처음 전사 서비스에서부터 검색, 광고 서비스를 순차적으로 도전하였습니다.
   <br/>
-  **코드 리뷰**를 주고 받는 것을 좋아하며, <mark>함께 자라는 개발 문화</mark>를 중시합니다.
+  문제 해결에 **집요**하게 파고 들고, 습득한 내용은 **기록**합니다.
+  <br/>
+  <mark>함께 자라는 개발 문화</mark>를 중시하여 팀원들과 소통하고, 학습하고, 개선하는 것을 좋아합니다.
 
 #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
