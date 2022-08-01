@@ -91,7 +91,7 @@ content:
 
       - layout: left
         title: 아프리카TV 검색 서비스
-        caption: 2020.01 ~ 현재
+        caption: 2020.01 ~ 2022.05
         description: | 
           * 아프리카TV 검색 API 개발
           * 아프리카TV 검색 시스템 구조 개선
