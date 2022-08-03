@@ -60,9 +60,9 @@ content:
           * Spring Boot, Batch, JPA
           * Junit5
           * Gradle, Maven
-          * MySQL, MariaDB
+          * MySQL, MariaDB, MongoDB, AWS S3
           * Redis, ElasticSearch
-          * IntelliJ
+          * Trino, Minio
 
       - layout: left
         title: DevOps / System
