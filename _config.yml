@@ -60,7 +60,8 @@ content:
           * Spring Boot, Batch, JPA
           * Junit5
           * Gradle, Maven
-          * MySQL, MariaDB, MongoDB, AWS S3
+          * MySQL, MariaDB
+          * MongoDB, AWS S3
           * Redis, ElasticSearch
           * Trino, Minio
 
