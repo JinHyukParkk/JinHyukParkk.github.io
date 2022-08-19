@@ -58,8 +58,7 @@ content:
         description: |
           * Java, Groovy, PHP
           * Spring Boot, Batch, JPA
-          * Junit5
-          * Gradle, Maven
+          * Gradle
           * MySQL, MariaDB
           * MongoDB, AWS S3
           * Redis, ElasticSearch
