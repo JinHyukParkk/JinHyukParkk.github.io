@@ -88,7 +88,7 @@ content:
         description: | 
           * 아프리카TV 광고 안내 서비스 PHP -> Java 컨버팅 (Spring boot)
           * 아프리카TV 광고 단가 배치 PHP -> Java 컨버팅 (Spring batch)
-          * 리타겟팅 광고를 위한 맞춤 타겟 서비스 개발
+          * 맞춤 광고를 위한 타겟팅 서비스 개발
 
       - layout: left
         title: 아프리카TV 검색 서비스
