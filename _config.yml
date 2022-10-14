@@ -54,21 +54,20 @@ content:
       - layout: left
         title: Backend
         description: |
-          * Java, Groovy, PHP
-          * Spring Boot, Batch, JPA
+          * Java, PHP
+          * Spring Boot, Batch
+          * JPA, Junit5
           * Gradle
-          * MySQL, MariaDB
-          * MongoDB, AWS S3
-          * Redis, ElasticSearch
-          * Trino, Minio
+          * nGrinder, Sentry
+          * Git, Fork
 
       - layout: left
         title: DevOps / System
         description: |
-          * Jira, Slack, Discord
+          * MariaDB, MongoDB, AWS S3
+          * Redis, ElasticSearch, Kafka
+          * Trino, Minio
           * Jenkins, GitLab-CI, TravisCI
-          * nGrinder, Sentry
-          * Nginx
           * Docker, Kubernetes
 
       - layout: left
@@ -76,6 +75,14 @@ content:
         description: | 
           * Html, Javascript
           * Handlebars
+
+      - layout: left
+        title: Collaboration
+        description: | 
+          * GitLab, Bitbucket
+          * Jira
+          * Slack, Teams, Discord
+          * Gitlab Wiki
 
   - title: 경력 사항 
     layout: list
