@@ -89,7 +89,7 @@ content:
     content:
       - layout: left
         title: 아프리카TV 광고 서비스
-        caption: 2022.01 ~ 현재
+        caption: 2022.01 ~ 2022.12
         description: | 
           * 아프리카TV 광고 안내 서비스 PHP -> Java 컨버팅 (Spring boot)
           * 아프리카TV 광고 단가 배치 PHP -> Java 컨버팅 (Spring batch)
