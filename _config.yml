@@ -88,6 +88,12 @@ content:
     layout: list
     content:
       - layout: left
+        title: 우아한 형제들
+        caption: 2023.03 ~ 
+        description: | 
+          * 배달의민족 검색 API, 배치 개발 및 운영
+
+      - layout: left
         title: 아프리카TV 광고 서비스
         caption: 2022.01 ~ 2022.12
         description: | 
