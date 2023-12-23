@@ -54,7 +54,7 @@ content:
       - layout: left
         title: Backend
         description: |
-          * Java, PHP
+          * Java, Python
           * Spring Boot, Batch
           * JPA, Junit5
           * Gradle
